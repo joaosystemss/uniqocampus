@@ -13,8 +13,8 @@ export default defineConfig(({ mode }) => ({
     },
   },
   plugins: [
-    react(),
-    mode === "development" && VitePWA({
+  react(),
+  VitePWA({
       registerType: "prompt",
       devOptions: {
         enabled: true,
